@@ -5,10 +5,8 @@ meaning). The project uses natural language processing (NLP) and
 supervised classification to compare question pairs.
 
 🔗 Project Links
-- Live Demo: Add your deployed application URL
-  here
-- GitHub Repository: Add your repository URL
-  here
+- Live Demo: https://duplicate-question-prediction-jfbi7qxigwv55dfotnfxxt.streamlit.app/
+
 
 
 ✨ Features
