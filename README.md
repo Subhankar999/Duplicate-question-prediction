@@ -24,5 +24,5 @@ supervised classification to compare question pairs.
 - Language: Python
 - Data processing: Pandas, NumPy
 - Machine learning: Scikit-learn
-- NLP / text similarity: Update this list to include the exact libraries used, such as NLTK, FuzzyWuzzy/RapidFuzz, or TF-IDF.
+- NLP / text similarity: token based features, length based features, FuzzyWuzzy.
 - Web application: Streamlit 
