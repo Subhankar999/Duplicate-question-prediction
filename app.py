@@ -87,13 +87,7 @@ with tab_predict:
     st.header("Are these two questions duplicates?")
 
     examples = {"— write your own —": ("", "")}
-    for e in metrics.get("examples", []):
-        tag = "✅ dup" if e["label"] else "❌ not dup"
-        examples[f"[{tag}] {e['q1'][:55]}…"] = (e["q1"], e["q2"])
-    examples["[✅ dup] How can I learn Python? / What is the best way to learn Python?"] = (
-        "How can I learn Python?", "What is the best way to learn Python?")
-    examples["[❌ not dup] How can I lose weight? / How can I gain weight?"] = (
-        "How can I lose weight?", "How can I gain weight?")
+  
 
     choice = st.selectbox("Try an example", list(examples.keys()))
     ex_q1, ex_q2 = examples[choice]
