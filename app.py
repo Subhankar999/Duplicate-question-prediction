@@ -67,8 +67,7 @@ def gauge(p, threshold):
 # --------------------------------------------------------------------------- #
 with st.sidebar:
     st.title("🔍 Duplicate Detector")
-    st.caption("XGBoost on engineered text-similarity features + bag-of-words, "
-               "trained on the Quora Question Pairs dataset.")
+    
     threshold = st.slider("Decision threshold", 0.05, 0.95, 0.50, 0.05,
                           help="Probability at or above this value is labelled *duplicate*. "
                                "Lower it to catch more duplicates (more false alarms); "
